@@ -1,5 +1,5 @@
 def calculate_circle(r):
-   
+
     a = 3.1416 * r ** 2
     c = 2 * 3.1416 * r
     
