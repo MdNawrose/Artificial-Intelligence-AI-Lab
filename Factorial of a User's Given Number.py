@@ -4,11 +4,9 @@ def factorial(n):
     else:
         return n * factorial(n - 1)
 
-# Get input from the user
-num = int(input("Enter a number: "))
+Num = int(input("Enter a Number: "))
 
-# Check if the number is negative
-if num < 0:
-    print("Factorial is not defined for negative numbers.")
+if Num < 0:
+    print("Factorial Is Not Defined For Negative Numbers.")
 else:
-    print(f"The factorial of {num} is {factorial(num)}")
+    print(f"The Factorial Of {Num} is {factorial(Num)}")
