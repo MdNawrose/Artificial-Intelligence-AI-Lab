@@ -7,6 +7,6 @@ def factorial(n):
 Num = int(input("Enter a Number: "))
                    
 if Num < 0:
-    print("Factorial Is Not Defined For Negative Numbers.")
+    print("Factorial Is Not Defined For Negative Numbers.") 
 else:
     print(f"The Factorial Of {Num} is {factorial(Num)}")
