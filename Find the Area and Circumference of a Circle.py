@@ -4,7 +4,7 @@ def calculate_circle(r):
     c = 2 * 3.1416 * r
     
     return a,c
-
+               
 r = float(input("Enter The Radius Of The Circle: "))
 
 a,c = calculate_circle(r)
