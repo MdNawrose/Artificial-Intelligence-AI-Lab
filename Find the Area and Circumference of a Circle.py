@@ -5,9 +5,9 @@ def calculate_circle(r):
     
     return a,c
 
-r = float(input("Enter the radius of the circle: "))
+r = float(input("Enter The Radius Of The Circle: "))
 
 a,c = calculate_circle(r)
 
-print(f"Area of the circle: {a:.2f}")
-print(f"Circumference of the circle: {c:.2f}")
+print(f"Area Of The Circle: {a:.2f}")
+print(f"Circumference Of The Circle: {c:.2f}")
