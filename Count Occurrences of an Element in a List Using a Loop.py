@@ -7,7 +7,6 @@ def count_occurrences(lst, element):
     return count
 
 lst = input("Enter the elements of the list separated by spaces: ").split()
-
 element = input("Enter the element to count: ")
 
 result = count_occurrences(lst, element)
