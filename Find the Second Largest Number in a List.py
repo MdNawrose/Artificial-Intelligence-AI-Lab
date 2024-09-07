@@ -1,9 +1,6 @@
-
-   1st Lab Assignment Q8
-    def second_largest(lst):
+def second_largest(lst):
    
     a = list(set(lst))
-    
     if len(a) < 2:
         return None
     
