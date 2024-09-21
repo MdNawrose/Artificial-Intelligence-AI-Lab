@@ -1,5 +1,5 @@
 def process_lists(list1, list2):
-
+ 
     concatenated_list = list1 + list2
     sorted_list = sorted(concatenated_list)
     reversed_sorted_list = sorted_list[::-1]
